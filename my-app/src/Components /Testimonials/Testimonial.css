@@ -1,0 +1,138 @@
+#app {
+    display: contents;
+  }
+  .container {
+    /* padding: 0px 40px 40px 40px;
+    max-width: 700px;
+    margin: 32px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 70px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* padding: 40px 0px 40px 0px; */
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .atropos-banner {
+    width: 50%;
+  }
+  .atropos-banner .atropos-inner {
+    border-radius: 10px;
+  }
+  /* .atropos-banner img {
+    position: absolute;
+    left: -5%;
+    top: -5%;
+    width: 110%;
+    height: 110%;
+    object-fit: contain;
+    display: block;
+    z-index: 1;
+    transform-style: preserve-3d;
+    pointer-events: none;
+  }
+  .atropos-banner img.atropos-banner-spacer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+  } */
+  /* .atropos-banner .atropos-shadow {
+    filter: blur(50px);
+    opacity: 0.5;
+  }
+  .atropos-banner .atropos-highlight {
+    z-index: 100;
+  } */
+
+  .Main{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom left,#09a97f 40%,
+        #16f5bb 
+      );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+
+  }
+
+  .Timg{
+    width: 70px;
+    height: 70px;
+    border-radius:50% ;
+    object-fit: cover;
+  }
+
+  .text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    width: 60%;
+  }
+
+  .name{
+
+ 
+    color: #05396c;
+font-family: 'Oswald', sans-serif;;
+font-size: 40px;    
+font-weight: 700;
+/* border: 5px solid #05396c; */
+padding: 15px 10px 15px 10px;
+margin-left: 40px;
+  }
+
+  .pt{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Roboto',sans-serif;
+    color: white;
+  }
+
+  .heading{
+    background: linear-gradient(
+    to bottom left,
+    #16f5bb,#09a97f
+  );
+  -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+font-family: 'Roboto', sans-serif;
+padding-bottom: 10px;
+display: flex;
+
+  }
+
+
+/* .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+} */
+.swiper {
+    width: 70vw;
+    
+    padding: 50px;
+  }
+  
+  .slider {
+    background-position: center;
+    background-size: cover;
+
+  }
